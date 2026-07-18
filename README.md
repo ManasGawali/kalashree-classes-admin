@@ -6,9 +6,9 @@ pieces**:
 
 | App               | Purpose                          | Example domain            |
 |--------------------|-----------------------------------|-----------------------------|
-| `backend`          | Shared API for both frontends     | `api.kalashreemusic.com`   |
-| `frontend-public`  | Public site + student dashboard   | `www.kalashreemusic.com`   |
-| `frontend-admin`   | Admin console                     | `admin.kalashreemusic.com` |
+| `backend`          | Shared API for both frontends     | `api.xyz.com`   |
+| `frontend-public`  | Public site + student dashboard   | `www.xyz.com`   |
+| `frontend-admin`   | Admin console                     | `admin.xyz.com` |
 
 Splitting the frontends means the admin console is a completely separate deployment —
 different domain/subdomain, its own build, and none of its code ships to student/public
